@@ -1,0 +1,2 @@
+recidivism_dataframe.pkl filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
