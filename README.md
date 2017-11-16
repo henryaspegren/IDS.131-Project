@@ -72,36 +72,57 @@ The average validation AUC is 0.671329394353
 
 ========self Data========
 Accuracy score of 0.948798859935 during training
+
 ROC score of 0.990768563388 during training
+
 Accuracy score of 0.949799809989 during training
+
 ROC score of 0.991362979168 during training
+
 Accuracy score of 0.949087269273 during training
+
 ROC score of 0.991049924299 during training
+
 The average validation score is 0.711568041983
+
 The average validation AUC is 0.733301674281
 
 
 
 ========self 2010 Data========
 Accuracy score of 0.95365092291 during training
+
 ROC score of 0.989927188308 during training
+
 Accuracy score of 0.953277687296 during training
+
 ROC score of 0.990152837516 during training
+
 Accuracy score of 0.952327633008 during training
+
 ROC score of 0.989701611582 during training
+
 The average validation score is 0.762746561708
+
 The average validation AUC is 0.781303359362
 
 
 
 ========Neighbour Data========
 Accuracy score of 0.949104234528 during training
+
 ROC score of 0.991029495065 during training
+
 Accuracy score of 0.950071254072 during training
+
 ROC score of 0.991137961165 during training
+
 Accuracy score of 0.9493417481 during training
+
 ROC score of 0.991170712162 during training
+
 The average validation score is 0.698108939558
+
 The average validation AUC is 0.71891503471
 
 
