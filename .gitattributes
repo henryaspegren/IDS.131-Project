@@ -2,3 +2,7 @@ recidivism_dataframe.pkl filter=lfs diff=lfs merge=lfs -text
 *.csv filter=lfs diff=lfs merge=lfs -text
 processed_datasets/basic_model.pkl filter=lfs diff=lfs merge=lfs -text
 *.pkl filter=lfs diff=lfs merge=lfs -text
+processed_datasets/crime_type_mapping.pkl filter=lfs diff=lfs merge=lfs -text
+processed_datasets/basic_model.csv filter=lfs diff=lfs merge=lfs -text
+processed_datasets/crime_type_mapping.csv filter=lfs diff=lfs merge=lfs -text
+raw_datasets/Cooffending.csv filter=lfs diff=lfs merge=lfs -text
