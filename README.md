@@ -1,34 +1,45 @@
 # IDS.131-Project
-Known Problems:
+KNOWN PROBLEMS:
 
 1) Data has repeated entries
+
 2) Data has birthdates that makes no sense
 
 Data Cleaning / Filtering
 
 1)Filtered data to contain first and second arrest only
-2)Filtered data to contain second and third arrest only
-2)[For recitivism prediction] Only selected users who are in the network (i.e they were arrested with other people in the first arrest)
 
-Features addtion
+2)Filtered data to contain second and third arrest only
+
+3)[For recitivism prediction] Only selected users who are in the network (i.e they were arrested with other people in the first arrest)
+
+FEATURES ADDITION:
+
 1) age_cat -> quantile of their age in the dataset (1 to 10 categorial)
+
 2)eigen - eigenvalue centrality in network
+
 3)degree - degree centrality in network
+
 4)closeness - closeness centrality in network
+
 5)clus - local clustering coefficient in network
 
 NETWORKS ARE BUILT BASED ON TIME(YEAR) OF ARREST SO WE DONT HAVE FUTURE INFORMATION
 
-Models in logistic regression / random forest
+MODELS IN LOGSITIC REGRESSION / RANDOM FOREST:
 
 1)BASELINE : ['first_arrest_SEXE','first_arrest_NCD1', 'first_arrest_MUN', 'first_arrest_ED1','age_cat']
+
 2)SELF : BASELINE + ['eigen','degree','clus','closeness'] 
+
 3)NEIGHBOUR : BASELINE + sum of neighbour's ['eigen','degree','clus','closeness'] 
+
 4)SELF2010 : BASELINE + ['eigen','degree','clus','closeness']  from 2010 network (IE we use all the information to build the network , not just the information we have at the time of arrest - its cheating, just to see how well we can perform)
 
 
 
-Results for running k-folds on Random Forest classifier:
+RESULTS FROM RUNNING K FOLDS ON RANNDOM FOREST CLASSIFIER.
 
 ****Fold=3*********
 
